@@ -19,7 +19,7 @@ int main(){
     cout << obj.price << endl;
     Car obj2;
 
-    obj2.brand = "BMW";
+    obj2.brand = "NISSAN";
     obj2.price = 3000000;
 
     cout << obj2.brand << endl;
