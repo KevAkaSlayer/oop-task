@@ -1,8 +1,8 @@
 class Bank:
     def __init__(self,holder_name,initial_balance):
         self.holder_name = holder_name
-        self.__balance = initial_balance # This is a private attribute  
-        self._branch = "Dhanmondi" # This is a protected attribute
+        self.__balance = initial_balance 
+        self._branch = "Dhanmondi" 
 
     def deposit(self,amount):
         self.__balance += amount
@@ -18,6 +18,6 @@ rafsan.deposit(500)
 
 print(rafsan.get_balance())
 
-# print(rafsan.__balance) # This will give an error
-print(rafsan._branch) # This will not give an error
-print(rafsan._Bank__balance) # This will not give an error
+# print(rafsan.__balance) #eta error asbe
+print(rafsan._branch) 
+print(rafsan._Bank__balance) 
